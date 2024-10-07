@@ -1,22 +1,24 @@
-body {
-    background-color: #f8f8f8;
-}
-
 .book-library {
-    background-color: #ffffff;
-	padding:10px;
-	
-    /* Add other styles as needed */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .book {
-    /* Add styles as needed */
+  border: 1px solid #000;
+  padding: 10px;
+  width: 30%;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
 }
 
 .author {
-    color: #777777;
+  font-style: italic;
 }
 
 .price {
-    color: #2ecc71;
+  font-weight: bold;
 }
