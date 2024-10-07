@@ -1,24 +1,46 @@
+.books{
+	text-align:center;
+	margin:auto;
+	background-color:lightgray;
+}
+body {
+  background-color: #f8f8f8;
+	
+}
+
 .book-library {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-}
+	
+  background-color: #ffffff;
+	padding:10px;
+	margin:auto;
+	
 
+  /* Add other styles as needed */
+}
 .book {
-  border: 1px solid #000;
-  padding: 10px;
-  width: 30%;
-}
-
-.book img {
-  width: 100%;
-  height: auto;
+  /* Add styles as needed */
+  background-color: #ffffff;
+	padding:10px;
+	margin:auto; 
+	
 }
 
 .author {
-  font-style: italic;
+  color: #777777;
+	
 }
 
+
 .price {
-  font-weight: bold;
+  background-color:#2ecc71 ;
+	 color: #ffffff;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+	
+  display: flex; /* or display: block; if you specify a width */
+}
+.book img {
+  display: block;
+  margin: auto;
 }
